@@ -20,6 +20,7 @@ public class BookServiceImpl implements BookServices
 		
 		Books b1 = bookRepo.save(book);
 		System.out.println(b1);
+		System.out.println("Good");
 		return b1;
 	}
 
